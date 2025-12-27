@@ -1,0 +1,30 @@
+[theme]
+base = "light"
+
+# Primary accent color - a modern blue
+primaryColor = "#4F8BF9"
+
+# Background color - clean off-white
+backgroundColor = "#FFFFFF"
+
+# Secondary background - very light gray for contrast
+secondaryBackgroundColor = "#F5F7FA"
+
+# Text color - dark gray for readability
+textColor = "#262730"
+
+# Font settings
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+
+# Base text
+baseFontWeight = 400
+baseFontSize = 14
+
+# Heading font and settings
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+headingFontWeights = [700, 600, 500, 400, 400, 400]
+headingFontSizes = ["2.5rem", "1.75rem", "1.25rem", "1rem", "0.875rem", "0.75rem"]
+
+# Widget styling
+showWidgetBorder = true
+borderColor = "#e6ebf1"
