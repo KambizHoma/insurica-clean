@@ -21,7 +21,7 @@ st.markdown("")  # Add spacing
 with st.sidebar:
     # Company logo at the top
     try:
-        st.image("nippotica_icon.png", width=60)
+        st.image("nippotica_icon.png", width=50)
     except:
         st.markdown("### NIPPOTICA")
     
