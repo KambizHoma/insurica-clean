@@ -21,7 +21,7 @@ st.markdown("")  # Add spacing
 with st.sidebar:
     # Company logo at the top
     try:
-        st.image("nippotica_icon.png", width=100)
+        st.image("nippotica_icon.png", width=60)
     except:
         st.markdown("### NIPPOTICA")
     
@@ -95,7 +95,7 @@ scenarios = {
 }
 
 # INPUT SECTION
-st.markdown("## 📋 Application Input")
+st.markdown("## Application Input")
 st.caption("Enter applicant information below or select a demo scenario from the sidebar")
 st.markdown("")
 
