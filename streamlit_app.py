@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Title and description with modern styling
-st.title("🏥 Insurica")
+st.title("Insurica")
 st.markdown("### AI-Powered Life Insurance Underwriting")
 st.caption("Instant risk assessment and underwriting decisions powered by machine learning")
 st.markdown("")  # Add spacing
@@ -21,9 +21,9 @@ st.markdown("")  # Add spacing
 with st.sidebar:
     # Company logo at the top
     try:
-        st.image("nippotica_icon.png", width=180)
+        st.image("nippotica_icon.png", width=100)
     except:
-        st.markdown("### 🏢 NIPPOTICA")
+        st.markdown("### NIPPOTICA")
     
     st.markdown("")
     st.markdown("#### Demo Controls")
@@ -156,7 +156,7 @@ with col_btn2:
 if analyze_clicked:
     
     # Processing animation
-    with st.spinner("🤖 Insurica AI is analyzing application data..."):
+    with st.spinner("Insurica AI is analyzing application data..."):
         progress_bar = st.progress(0)
         status_text = st.empty()
         
@@ -270,7 +270,7 @@ if analyze_clicked:
     
     # OUTPUT SECTION
     st.markdown("")
-    st.markdown("## 📊 AI Analysis Results")
+    st.markdown("## AI Analysis Results")
     
     # Decision banner
     if "APPROVED" in decision and "CONDITIONS" not in decision:
